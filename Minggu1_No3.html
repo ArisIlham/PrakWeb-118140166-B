@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Prak Web 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    header, nav,article,footer {
+        border: 2px solid black;
+    }
+
+    header {
+        background-color: #C0C0C0;
+        text-align: center;
+        font-size: 35px;
+        height: 200px;
+        width: 784px;
+        color: black;
+    }
+
+    nav {
+        float: left;
+        padding:4px;
+        width: 200px;
+        background: yellow ;
+        height:296px; /* jika auto height, height dari nav dengan height dari article tidak sama */
+    }   
+
+    nav ul {
+        list-style-type: symbols();
+        padding: 1;
+        height: auto;
+    }
+
+    article {
+        float: left;
+        width: 584px;
+        padding:5px;
+        background-color: #FFC0CB;
+       height: auto; /*jika auto height, height dari nav dengan height dari article tidak sama*/
+    }
+
+    section:after {
+        content: "";
+        display: table;
+        clear: both;
+    }    
+
+    footer {
+        background-color: #8e7cb1;
+        padding: 26px;
+        text-align: center;
+        color: black;
+        height:100px;
+        width:784px;
+    }
+
+     
+    </style>
+    </head>
+<body>
+    <header>
+        <img src="biodata.png" style="padding-top: 20px;width:300px;height:190px" />
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+  
+    <article>
+        <p>Ini laman pendaftaran wajib diisi.</p>
+      <form>
+            Name: <input type="text" name="Name">
+        </form>
+        <form>
+            Gender  :<input type="radio" name="sex" value="man">Man
+            <input type="radio" name="sex" value="Woman">Woman
+        </form>
+        <form>
+            Addres  : <input type="text" name="Addres">
+        </form>
+        <form action="country">
+            Country : 
+            <select name="country">
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+            </select>
+        </form>
+        <form>
+            Email    : <input type="text" name="Email">
+        </form>
+        <form name="input" action="demo_form_action.asp" method="get">
+            Photos   : <input type="Photos" name="Photos">
+            <input type="submit" name="submit">
+        </form>
+
+            comment  : <textarea rows="4" cols="70">
+        </textarea>
+            <input type="submit" name="submit">
+    </article>
+    </section>
+
+    <footer>
+        <p>118140166-Aris Ilham Nugraha &copy; 2020</p>
+    </footer>
+
+</body>
+</html>
