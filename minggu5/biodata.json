@@ -1,0 +1,22 @@
+{
+    "biodata": {
+      "nama": {
+        "awal": "Aris",
+        "tengah": "Ilham",
+        "akhir": "Nugraha"
+      },
+      "jeniskelamin": "Laki-laki",
+      "hobi": {
+        "hobi1": "ga ngapa2in",
+        "hobi2": "tidurlah"
+      },
+      "alamat": {
+        "kecamatan": "tanjung senang",
+        "kabupaten": "Bandar Lampung"
+      },
+      "socialMedia": {
+        "github": "ArisIlham",
+        "instagram": "aris_ilham"
+      }
+    }
+  }

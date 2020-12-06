@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <awal>Aris</awal>
+        <tengah>Ilham</tengah>
+        <akhir>Nugraha</akhir>
+    </nama>
+    <jeniskelamin>Laki-laki</jeniskelamin>
+    <hobi>
+        <hobi1>ga ngapa2in</hobi1>
+        <hobi2>tidurlah</hobi2>
+    </hobi>
+    <alamat>
+        <kecamatan>tanjung senang</kecamatan>
+        <kabupaten>Bandar Lampung</kabupaten>
+    </alamat>
+    <socialMedia>
+        <github>ArisIlham</github>
+        <instagram>aris_ilham</instagram>
+    </socialMedia>
+</biodata>
